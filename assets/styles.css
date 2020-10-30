@@ -1,0 +1,287 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+   font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: url(jpg/images/headerimg_01.jpg) no-repeat;
+	background-size: cover;
+	height: 750px;
+	padding-top: 50px;
+	color: white;
+}
+
+.container {
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.navi a {
+	list-style-type: none;
+	display: inline;
+	text-decoration: none;
+	color: #fff;
+	margin-left: 50px;
+	font-weight: 600;
+	font-size: 15px;
+	transition: color linear .2s;
+}
+
+.navi a:hover {
+	color: #061e37;
+}
+
+.navi a:first-child {
+	margin-left: 0;
+}
+
+.header_top {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 150px;
+}
+
+.logo img {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.logo p {
+	display: inline-block;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+span.sm {
+	font-weight: 800;
+}
+
+a.log {
+	border: 1px solid white;
+	border-radius: 1px;
+	text-decoration: none;
+	color: white;
+	padding: 6px 19px;
+	border-radius: 2px;
+}
+
+.intro_text h1 {
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 55px;
+}
+
+.intro_text p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 35px;
+}
+
+.intro_btn {
+	margin-top: 40px;
+}
+
+.intro_btn a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 15px;
+	padding: 20px 40px;
+	background-color: #061e37;
+	border-radius: 5px;
+	box-shadow: 0 0.4em 5px rgba(122,122,122,0.5);
+	transition: all ease-in .2s;
+}
+
+a.try {
+	color: #061e37;
+	font-weight: 700;
+	background-color: white;
+	margin-left: 30px;
+
+}
+
+a.buy:hover {
+	background-color: white;
+	color: #061e37;
+	font-weight: 700;
+}
+
+a.try:hover {
+	background-color: #061e37;
+	color: white;
+	font-weight: 400;
+}
+
+.intro_video img {
+	border: 1px solid black;
+	border-radius: 8px;
+	pointer-events: none;
+}
+
+.intro_video {
+	position: relative;
+	user-select: none;
+}
+
+.header_intro {
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn_play {
+	width: 60px;
+	height: 60px;
+	background-color: #061e37;
+	color: white;
+	text-align: center;
+	padding: 24px;
+	padding-top: 20px;
+	border-radius: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.watch {
+	color: #061e37;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.video_play {
+	position: absolute;
+	left: 40%;
+	top: 35%;
+	width: 114px;
+	height: 96px;
+	cursor: pointer;
+}
+
+.get_started {
+	padding-top: 94px;
+	height: 800px;
+}
+
+.e_u {
+	text-align: center;
+}
+
+.e_u h1 {
+	font-size: 45px;
+	font-weight: 600;
+	color: #061e37;
+	margin-bottom: 15px;
+}
+
+.e_u h2 {
+	font-size: 25px;
+	color: #b0bec5;
+	font-weight: 600;
+	margin-bottom: 16px;
+}
+
+.e_u p {
+	color: #b0bec5;
+	font-weight: 400;
+	font-size: 15px;
+	margin-bottom: 85px;
+}
+
+.mid {
+	text-align: center;
+	width: 350px;
+}
+
+.mid img {
+	margin-bottom: 40px;
+}
+
+.mid h3 {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.mid p {
+	font-weight: 400;
+	font-size: 15px;
+	color: #78909c;
+}
+
+.mid_e_u {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+}
+
+.btn_start {
+	text-align: center;
+}
+
+.btn_start a {
+	padding: 20px 20px;
+	background-color: #1de9b6;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 6px;
+	font-weight: 700;
+	font-size: 15px;
+	box-shadow: 0 0.4em 5px rgba(122,122,122,0.3);
+}
+
+.mid_footer {
+	height: 150px;
+}
+
+.mid_footer_box {
+	width: 25%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	font-weight: 800;
+	font-size: 20px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.b {
+	background-color: #80d8ff;
+}
+
+.d {
+	background-color: #82b1ff;
+}
+
+.f_i {
+	background-color: #b388ff;
+}
+
+.p_u {
+	background-color: #ea80fc;
+	float: right;
+}
+
+.mid_footer_box img {
+	margin-right: 25px;
+}
